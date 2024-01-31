@@ -1,0 +1,283 @@
+/*Body Styling*/
+body {
+	font-family: 'Spartan', sans-serif;
+	color: #1E1E35;
+  line-height: 1.6;
+  margin: 0;
+}
+
+b {
+  font-weight: 600;
+}
+
+a{
+  color: #4059FB;
+}
+
+a:hover{
+  color: #1E1E35;
+}
+
+#logo{
+  height: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*Header Styling*/
+header {
+  width: 70%;
+	margin: auto;
+  padding: 10px 0px;
+}
+
+#container {
+	width: 70%;
+	margin: 0 auto;
+}
+
+.navMenu {
+  display: flex;
+  overflow: hidden;
+  background-color: #005EB8;
+}
+
+.navColL {
+  flex: 75;
+  display: flex;
+  padding: 10px;
+}
+
+.navMenu p {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 0px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navMenu .icon{
+  display: none;
+}
+
+.heroIMGcontainer{
+  background-color: #E3E3E3;
+  padding: 30px;
+  width: 100%;
+}
+
+#heroIMG{
+  width: 88%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.titleBar {
+  display: flex;
+  overflow: hidden;
+  background-color: #c3007c;
+  color: #fff;
+}
+
+.titleBar p {
+  float: left;
+  color: #fff;
+  text-align: center;
+  padding: 0px 25px;
+  text-decoration: none;
+  font-size: 22px;
+}
+
+
+/*Text Styling*/
+h1 {
+	font-size: 250%;
+  font-weight: 300;
+}
+
+h2 {
+  padding-bottom: 8px;
+  font-weight: 600;
+  font-size: 150%;
+}
+
+h1,
+h2 {
+	color: #1f2025;
+  max-width: 95%;
+  margin: auto;
+}
+
+.text {
+  margin: auto;
+  max-width: 95%;
+}
+
+
+/*List Styling*/
+ol li {
+  padding-bottom: 8px;
+}
+
+ul li {
+  padding-bottom: 8px;
+}
+
+/*Image Styling*/
+img {
+	width: 100%;
+}
+
+/* Demo menu */
+* {
+  box-sizing: border-box;
+}
+
+.clear {
+  clear:both;
+}
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+/*Footer Styling*/
+footer {
+  position: bottom;
+  width: 70%;
+	margin: auto;
+  left: 0;
+  bottom: 0;
+  background: #005EB8;
+  padding: 10px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+footer span {
+  display: inline-block;
+  min-width: 230px;
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+footer span a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.2s ease-in;
+}
+footer span a:hover {
+  color: #C3007C;
+}
+
+.questionButton {
+  width: 100%;
+  color: #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  background-color: #034798;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.questionButton:hover {
+  background-color: #003087;
+  color: #fff;
+}
+
+/*Standard Button*/
+.stdButton{
+  border: none;
+  color: white;
+  padding: 9px 15px 6.5px 15px;
+  width: 100%;
+  text-decoration: none;
+  background-color: #1E1E35;
+  border-radius: 50px;
+  font-weight: 500;
+  font-size: 19px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.60);
+}
+
+.stdButton:hover{
+  background-color: #4059FB;
+}
+
+hr {
+  border-top: 1px solid #0F728C;
+  width: 50%;
+}
+
+/*Sizing Styling*/
+@media screen and (max-width: 875px) {
+	header {
+  width: 90%;
+  }
+
+  .text {
+  margin: auto;
+  max-width: 95%;
+  }
+
+  header ul {
+    padding-top:2px;
+  }
+  
+  #container {
+		width: 90%;	
+	}
+
+  .smallShow{
+    display: block;
+  }
+	
+  footer {
+  width: 95%;
+  }
+
+	h1 {
+		font-size: 195%;	
+	}
+}
+
+@media screen and (max-width: 420px) {
+  body {
+    margin: 8px 2px;
+  }
+
+  #container {
+		width: 95%;	
+	}
+
+  header span {
+  font-size: 15px;
+  }
+
+  p {
+    font-size: 15px;
+  }
+
+  .form {
+    width: 90%;
+  }
+
+  .mobhide {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 421px) {
+  .mobShow {
+    display: none;
+  }
+}
